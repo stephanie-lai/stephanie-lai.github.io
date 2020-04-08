@@ -1,0 +1,1012 @@
+* {box-sizing: border-box;} 
+
+    @import url(https://fonts.googleapis.com/css?family=Satisfy); 
+    @import url(https://fonts.googleapis.com/css?family=Six+Caps);
+    @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600);
+
+    body {
+        background: url(http://api.thumbr.it/whitenoise-361x370.png?background=15424fff&noise=166f9e&density=100&opacity=61);
+        text-align: center;
+    }
+    
+    .main {
+        justify-content: center;
+        margin-top: 75px;
+    }
+
+    .halo {
+        background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.6));
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        pointer-events: none;
+    
+    }
+
+    .intro {
+        color: rgb(230, 200, 160);
+        display: block;
+        font-family: 'Satisfy', cursive;
+        font-size: 32px;
+        text-shadow: 1px 1px black;
+    }
+
+
+    .intro--num {
+        color: rgb(20, 60, 80);
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+        padding: 4px 6px 2px;
+        position: absolute;
+        text-shadow: none;
+    }
+
+    .vintage__container {
+        display: inline-block;
+        margin: 25px auto 40px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .vintage {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 192px;
+        letter-spacing: 10px;
+        line-height: 1;
+        margin: 0;
+        position: relative;
+    }
+
+    .vintage__top {
+        background: linear-gradient(rgb(240, 220, 200), rgb(230, 200, 160));
+        -webkit-background-clip: text;
+        background-clip: text;
+        position: absolute;
+        z-index: 1;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        }
+
+    .vintage__bot {
+        text-shadow: 
+            2px 1px rgb(85, 10, 0),
+            4px 2px rgb(90, 15, 5),
+            6px 4px rgb(100, 20, 15),
+            8px 5px rgb(105, 25, 20),
+            10px 6px rgb(110, 30, 25),
+            12px 7px rgb(115, 30, 30),
+            14px 8px rgb(120, 30, 35),
+            16px 9px black,
+            18px 10px black,
+            20px 11px black,
+            22px 12px black,
+            24px 13px black,
+            28px 14px rgba(0, 0, 0, 0.9),
+            30px 15px rgba(0, 0, 0, 0.7),
+            32px 16px rgba(0, 0, 0, 0.5),
+            34px 17px rgba(0, 0, 0, 0.3),
+            36px 18px rgba(0, 0, 0, 0.1),
+            40px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        font-family: 'Six Caps', sans-serif;
+      }
+
+
+    .arrow {
+        box-sizing: border-box;
+        height: 2vw;
+        width: 2vw;
+        border-style: solid;
+        border-color: white;
+        border-width: 0px 2px 2px 0px;
+        transform: rotate(45deg);
+        transition: border-width 150ms ease-in-out;
+      }
+      
+    .arrow:hover {
+        border-bottom-width: 4px;
+        border-right-width: 4px;
+      }
+      
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%)
+        padding: 16px;
+      }
+      
+    #full {
+        height: 500vh;
+      }
+
+/* Season Header */
+
+.winter{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 200%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #fff
+
+}
+
+.spring{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 255%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #fff
+}
+
+.sanda{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 395%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #fff
+}
+
+/* Winter Cassette */
+
+
+.winter-cassette {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 135%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 270px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 15px 
+  }
+
+  .w-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .w-second-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .w-tiny-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 90px;
+    background-color: #3E3E3E;
+    z-index: 2;
+  }
+
+  .w-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 230px;
+    width: 350px;
+    background-color: #748D9F;
+    border-radius: 15px
+  }
+  
+  .w-rectangle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 80px;
+    width: 230px;
+    background-color: #000000;
+    border-radius: 5%;
+    z-index: 1;
+  }
+  
+  /* Winter Film Strip */
+
+  body{
+    background-color: #f1f1f1;
+}
+
+.first-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 230%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.first-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.first-boxes{
+    width: 100%;
+    height: 40px;
+}
+.first-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.first-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://images.summitmedia-digital.com/preview/images/2017/01/20/blue.jpg) center top no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.first-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.second-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 280%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.second-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.second-boxes{
+    width: 100%;
+    height: 40px;
+}
+.second-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.second-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://filmindublin.ie/wp-content/uploads/2017/03/161212130449-02-la-la-land-los-angeles-locations-super-169.jpg) 43% 15% no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.second-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+.third-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 330%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.third-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.third-boxes{
+    width: 100%;
+    height: 40px;
+}
+.third-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.third-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://www.seeing-stars.com/Locations/LaLaLand/Liptons4.jpg) center top no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.third-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+
+  /* Spring Cassette */
+
+  .spring-cassette {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 300%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 270px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 15px 
+  }
+
+  .s-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .s-second-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .s-tiny-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 90px;
+    background-color: #3E3E3E;
+    z-index: 2;
+  }
+
+  .s-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 230px;
+    width: 350px;
+    background-color: #E8AA45;
+    border-radius: 15px
+  }
+  
+  .s-rectangle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 80px;
+    width: 230px;
+    background-color: #000000;
+    border-radius: 5%;
+    z-index: 1;
+  }
+
+ /* Spring Film Strip */
+
+body{
+    background-color: #f1f1f1;
+}
+
+.fourth-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 560%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fourth-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.fourth-boxes{
+    width: 100%;
+    height: 40px;
+}
+.fourth-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.fourth-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://thumbs.gfycat.com/ArtisticFairCrownofthornsstarfish-size_restricted.gif) center no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.fourth-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.fifth-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 610%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fifth-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.fifth-boxes{
+    width: 100%;
+    height: 40px;
+}
+.fifth-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.fifth-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://media.giphy.com/media/xUA7aVPLS7eZaak3Ru/giphy.gif) 40% 30% no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.fifth-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+ /* Summer Cassette */
+
+ .summer-cassette {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 440%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 270px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 15px 
+  }
+
+  .sm-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .sm-second-circle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 3
+  } 
+  
+  .sm-tiny-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 50px;
+    width: 90px;
+    background-color: #3E3E3E;
+    z-index: 2;
+  }
+
+  .sm-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 230px;
+    width: 350px;
+    background-color: #CE7E7D;
+    border-radius: 15px
+  }
+  
+  .sm-rectangle {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    height: 80px;
+    width: 230px;
+    background-color: #000000;
+    border-radius: 5%;
+    z-index: 1;
+  }
+
+/* Summer Film Strip */
+
+body{
+    background-color: #f1f1f1;
+}
+
+.sixth-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 840%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sixth-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.sixth-boxes{
+    width: 100%;
+    height: 40px;
+}
+.sixth-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.sixth-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://www.mentinfuga.com/wp-content/uploads/2017/01/La-La-Land-The-messengers-e1485728875335.jpg)  60% 5% no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.sixth-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+.seventh-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 890%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.seventh-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.seventh-boxes{
+    width: 100%;
+    height: 40px;
+}
+.seventh-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.seventh-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://www.seeing-stars.com/Locations/LaLaLand/MiasTheatre4.jpg) center center no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.seventh-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+
+/* Autumn Film Strip */
+
+
+body{
+    background-color: #f1f1f1;
+}
+
+.eight-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 940%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.eight-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.eight-boxes{
+    width: 100%;
+    height: 40px;
+}
+
+.eight-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+
+.eight-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://i.pinimg.com/originals/4f/d8/f4/4fd8f40fab03119347ee5a378dc31635.gif) center no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.eight-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.nine-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 990%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nine-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.nine-boxes{
+    width: 100%;
+    height: 40px;
+}
+
+.nine-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+
+.nine-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://46.media.tumblr.com/6534fcbdb8221fa849b5dbc22ee50efe/tumblr_olwl7jEuUR1u8iv5ho4_500.gif) center center no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.nine-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+
+.ten-wrapper{
+    background-color: #000000;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 1040%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ten-box{
+    width: 250px;
+    height: 100%;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.ten-boxes{
+    width: 100%;
+    height: 40px;
+}
+.ten-small-box{
+    margin: 0;
+    background-color: #fff;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+    margin: 10px 10px 10px 10.81px;
+}
+.ten-center-box{
+    width: 90%;
+    height: 170px;
+    background: url(https://thumbs.gfycat.com/CompassionateGlamorousAmericangoldfinch-size_restricted.gif) center center no-repeat;
+        -webkit-filter: grayscale(100%); 
+        filter: grayscale(100%);
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+
+.ten-center-box:hover{
+    transform: scale(0.95);
+    opacity: 0.75;
+}
+
+@keyframes load{
+    from{transform: scale(0);}
+}
+  
+
+
